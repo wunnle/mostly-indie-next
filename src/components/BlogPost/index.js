@@ -1,6 +1,7 @@
 import timeSince from '@/utils/time-since'
 import styles from './BlogPost.module.css'
 import Markdown from 'react-markdown'
+import Webmentions from '@/components/Webmentions'
 
 const BlogPost = ({ post }) => {
   const { meta, content } = post
@@ -34,6 +35,7 @@ const BlogPost = ({ post }) => {
             {content}
           </Markdown>
         </div>
+        <Webmentions slug={post.slug} />
       </div>
     </div>
   )

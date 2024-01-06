@@ -44,3 +44,14 @@ export function getAllPosts() {
     })
   return posts
 }
+
+export function getWebmentionsForSlug(slug) {
+  fetch(
+    `https://webmention.io/api/mentions.json?target=https://www.mostlyindie.com/${slug}`
+  )
+    .then(res => res.json())
+    .then(data => {
+      return data
+      console.log(data)
+    })
+}
