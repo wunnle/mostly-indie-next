@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import stripMarkdown from 'strip-markdown'
+import removeMd from 'remove-markdown'
 
 const PostSeo = ({ post }) => {
   const { meta, content } = post
 
   const { title, featuredImg, date } = meta
 
-  const summary = stripMarkdown(content).slice(0, 160)
+  const summary = removeMd(content).slice(0, 157) + '...'
 
   return (
     <Head>
