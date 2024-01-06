@@ -2,35 +2,16 @@ import timeSince from '@/utils/time-since'
 import styles from './BlogPost.module.css'
 import Markdown from 'react-markdown'
 import Webmentions from '@/components/Webmentions'
-import Head from 'next/head'
+import PostSeo from '@/components/PostSeo'
 
 const BlogPost = ({ post }) => {
   const { meta, content } = post
 
-  const { title, date, featuredImg } = meta
+  const { title, date } = meta
 
   return (
     <div>
-      <Head>
-        <title>{title} | Mostly Indie</title>
-        <meta name="description" content={title} />
-        <meta property="og:title" content={title} />
-        <meta property="og:type" content="article" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@mostlyindie" />
-        <meta name="twitter:creator" content="@mostlyindie" />
-        <meta property="og:url" content={`https://mostlyindie.com/${post.slug}`} />
-        <meta property="og:description" content={title} />
-        <meta
-          property="og:image"
-          content={`/images/articles/${post.slug}/${featuredImg.replace('./', '')}`}
-        />
-        <meta
-          property="twitter:image"
-          content={`/images/articles/${post.slug}/${featuredImg.replace('./', '')}`}
-        />
-        <link rel="canonical" href={`https://mostlyindie.com/${post.slug}`} />
-      </Head>
+      <PostSeo post={post} />
       <div className={styles.post}>
         <h1 className={[styles.title, 'p-name'].join(' ')}>{title}</h1>
         <div style={{ display: 'none' }}>
