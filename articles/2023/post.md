@@ -85,7 +85,7 @@ This is another city building survival game that has a set of goals in each leve
 
 Another unusual example of its genre on this list has to be *Word Factori*, a minimalist factory/automation game where you construct letters out of the only material you have in the game: `the letter i `. I mainly liked the puzzle aspect of it, i.e. finding out the different ways to create each letter out of the letter i, but in general, I am not a huge fan of automation games so I haven't spent much time trying to make my construction chain efficient, which is a big part of the game.
 
-<!-- ![](./word-factori.jpg) -->
+![](./word-factori.jpg)
 
 ***King of the Castle***
 
