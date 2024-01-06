@@ -14,7 +14,7 @@ const PostLink = ({ post }) => {
       {featuredImg && (
         <Image
           className={styles.postImg}
-          src={`/images/articles/${slug}/${featuredImg}`}
+          src={`/images/articles/${slug}/${featuredImg.replace('./', '')}`}
           alt="Alba"
           width={300}
           height={300}
