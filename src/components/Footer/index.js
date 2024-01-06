@@ -12,16 +12,23 @@ const Footer = () => (
         target="_blank"
         rel="noopener noreferrer"
         href="https://github.com/wunnle/mostly-indie"
+        title="Github"
       >
         <Image src="/images/github.svg" width={24} height={24} alt="github" />
       </a>
-      <a target="_blank" rel="noopener noreferrer me" href="https://twitter.com/ranxi">
-        <Image src="/images/twitter.svg" width={24} height={24} alt="twitter" />
+      <a
+        target="_blank"
+        rel="noopener noreferrer me"
+        href="https://bsky.app/profile/mostlyindie.com"
+        title="Bluesky"
+      >
+        <Image src="/images/bluesky.svg" width={24} height={24} alt="bluesky" />
       </a>
       <a
         target="_blank"
         rel="noopener noreferrer me"
         href="https://store.steampowered.com/curator/8260569-Mostly-Indie/"
+        title="Steam"
       >
         <Image src="/images/steam.svg" width={24} height={24} alt="steam" />
       </a>
@@ -29,6 +36,7 @@ const Footer = () => (
         target="_blank"
         rel="noopener noreferrer me"
         href="https://www.twitch.tv/mostlyindie/"
+        title="Twitch"
       >
         <Image src="/images/twitch.svg" width={24} height={24} alt="twitch" />
       </a>
