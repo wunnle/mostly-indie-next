@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 
 const Footer = () => (
   <footer className={styles.footer}>
-    <Link href="/" class="h-card" rel="me">
+    <Link href="/" className="h-card" rel="me">
       Mostly Indie
     </Link>
     <div className={styles.contact}>

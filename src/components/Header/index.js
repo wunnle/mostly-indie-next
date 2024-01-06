@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Header = () => (
   <header className={styles.header}>
-    <Link href="/" class="h-card" rel="me">
+    <Link href="/" className="h-card" rel="me">
       <Image className={styles.logo} src={logo} alt="Mostly Indie" />
     </Link>
     {/* <nav className={styles.nav}>
