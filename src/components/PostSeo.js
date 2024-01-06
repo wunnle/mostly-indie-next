@@ -25,7 +25,9 @@ const PostSeo = ({ post }) => {
       />
       <meta
         property="twitter:image"
-        content={`/images/articles/${post.slug}/${featuredImg.replace('./', '')}`}
+        content={`https://next.mostlyindie.com/images/articles/${
+          post.slug
+        }/${featuredImg.replace('./', '')}`}
       />
       <link rel="canonical" href={`https://mostlyindie.com/${post.slug}`} />
       <meta property="og:site_name" content="Mostly Indie" />
