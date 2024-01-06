@@ -21,7 +21,9 @@ const PostSeo = ({ post }) => {
       <meta property="og:description" content={summary} />
       <meta
         property="og:image"
-        content={`/images/articles/${post.slug}/${featuredImg.replace('./', '')}`}
+        content={`https://next.mostlyindie.com/images/articles/${
+          post.slug
+        }/${featuredImg.replace('./', '')}`}
       />
       <meta
         property="twitter:image"
