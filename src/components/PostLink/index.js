@@ -12,13 +12,22 @@ const PostLink = ({ post }) => {
   return (
     <Link href={`/${slug}`} key={post.slug} className={styles.link}>
       {featuredImg && (
-        <Image
+        <div
+          style={{
+            backgroundImage: `url(/images/articles/${slug}/${featuredImg.replace(
+              './',
+              ''
+            )})`
+          }}
           className={styles.postImg}
-          src={`/images/articles/${slug}/${featuredImg.replace('./', '')}`}
-          alt="Alba"
-          width={300}
-          height={300}
-        />
+        ></div>
+        // <Image
+        //   className={styles.postImg}
+        //   src={`/images/articles/${slug}/${featuredImg.replace('./', '')}`}
+        //   alt="Alba"
+        //   width={300}
+        //   height={300}
+        // />
       )}
       <div className={styles.postInfo}>
         <div className={styles.postTitle}>
