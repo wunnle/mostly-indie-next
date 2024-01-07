@@ -27,13 +27,10 @@ const Home = ({ posts }) => {
           property="og:description"
           content="Game reviews and news. but mostly about indies."
         />
-        <meta
-          property="og:image"
-          content={`https://next.mostlyindie.com/images/logo.png`}
-        />
+        <meta property="og:image" content={`https://mostlyindie.com/images/logo.png`} />
         <meta
           property="twitter:image"
-          content={`https://next.mostlyindie.com/images/logo.png`}
+          content={`https://mostlyindie.com/images/logo.png`}
         />
         <link rel="canonical" href={`https://mostlyindie.com/`} />
         <meta property="og:site_name" content="Mostly Indie" />

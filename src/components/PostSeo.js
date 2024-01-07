@@ -21,13 +21,13 @@ const PostSeo = ({ post }) => {
       <meta property="og:description" content={summary} />
       <meta
         property="og:image"
-        content={`https://next.mostlyindie.com/images/articles/${
+        content={`https://mostlyindie.com/images/articles/${
           post.slug
         }/${featuredImg.replace('./', '')}`}
       />
       <meta
         property="twitter:image"
-        content={`https://next.mostlyindie.com/images/articles/${
+        content={`https://mostlyindie.com/images/articles/${
           post.slug
         }/${featuredImg.replace('./', '')}`}
       />
