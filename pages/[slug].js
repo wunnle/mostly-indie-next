@@ -1,10 +1,12 @@
 import BlogPost from '@/components/BlogPost'
+import Header from '@/components/Header'
 import Layout from '@/components/Layout'
 import { getAllPostSlugs, getPostBySlug } from '@/lib/api'
 
 const Slug = ({ post }) => {
   return (
     <Layout>
+      <Header />
       <BlogPost post={post} />
     </Layout>
   )

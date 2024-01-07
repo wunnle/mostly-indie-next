@@ -1,10 +1,9 @@
 .header {
-  width: 900px;
+  width: 708px;
   margin: 0 auto;
   height: 120px;
   display: flex;
   align-items: center;
-  display: none;
 }
 
 @media screen and (max-width: 900px) {
@@ -24,6 +23,7 @@
 .logo {
   width: 100px;
   height: 78px;
+  margin-left: -8px;
 }
 
 .nav {
