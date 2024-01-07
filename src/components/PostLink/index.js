@@ -3,13 +3,23 @@ import Link from 'next/link'
 import Markdown from 'react-markdown'
 import styles from './PostLink.module.css'
 
-const PostLink = ({ post }) => {
+const PostLink = ({ post, isHoveringOnLinks, isFocused, onHover, onBlur }) => {
   const { slug, meta } = post
 
   const { title, date, featuredImg } = meta
 
   return (
-    <Link href={`/${slug}`} key={post.slug} className={styles.link}>
+    <Link
+      href={`/${slug}`}
+      key={post.slug}
+      onMouseEnter={onHover}
+      onMouseLeave={onBlur}
+      className={[
+        styles.link,
+        isHoveringOnLinks && styles.blur,
+        isFocused && styles.focus
+      ].join(' ')}
+    >
       {featuredImg && (
         <div
           style={{

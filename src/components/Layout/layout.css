@@ -48,3 +48,20 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(
+    #ffffff 70%,
+    #F4F4F8 90%
+  );
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    background: white;
+  }
+  
+}

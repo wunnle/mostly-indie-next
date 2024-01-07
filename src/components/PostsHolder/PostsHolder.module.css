@@ -1,20 +1,21 @@
 .homeLinks {
-  width: 900px;
-  max-width: 100%;
+  width: 902px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: auto;
   padding: 0;
   box-sizing: border-box;
-  /* justify-content: flex-start; */
-  /* align-items: flex-start; */
+  max-width: 100%;
+  border-left: 1px solid #F4F4F8;
+  border-right: 1px solid #F4F4F8;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {
   .homeLinks {
-    width: 100wv;
+    width: 100%;
     margin: 0;
-    justify-content: center;
+    border: none;
   }
 }
