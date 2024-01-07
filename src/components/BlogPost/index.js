@@ -12,12 +12,18 @@ const BlogPost = ({ post }) => {
   return (
     <div>
       <PostSeo post={post} />
-      <div className={styles.post}>
+      <div className={[styles.post, 'h-entry'].join(' ')}>
         <h1 className={[styles.title, 'p-name'].join(' ')}>{title}</h1>
         <div style={{ display: 'none' }}>
           <p className={['p-author', 'h-card'].join(' ')} rel="author">
             Ranxi
           </p>
+          <a className="u-url" href={`https://mostlyindie.com/${post.slug}`}>
+            Link to the post
+          </a>
+          <time className="dt-published" dateTime={isoDate}>
+            {date}
+          </time>
         </div>
         <p className={styles.date}>{timeSince(date)}</p>
         <div className={[styles.content, 'e-content', 'p-name'].join(' ')}>
