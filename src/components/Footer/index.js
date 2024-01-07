@@ -2,12 +2,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Footer.module.css'
 import { Silkscreen } from 'next/font/google'
+import Head from 'next/head'
 
 const silkscreen = Silkscreen({ subsets: ['latin'], weight: ['400'] })
 
 const Footer = () => (
   <div className={styles.wrapper}>
     <footer className={styles.footer}>
+      <Head>
+        <link rel="webmention" href="https://webmention.io/mostlyindie.com/webmention" />
+        <link rel="pingback" href="https://webmention.io/mostlyindie.com/xmlrpc" />
+      </Head>
       <Link
         href="/"
         className={['h-card', silkscreen.className, styles.footerTitle].join(' ')}
