@@ -21,7 +21,7 @@ const BlogPost = ({ post }) => {
           <a className="u-url" href={`https://mostlyindie.com/${post.slug}`}>
             Link to the post
           </a>
-          <time className="dt-published" dateTime={isoDate}>
+          <time className="dt-published" dateTime={date}>
             {date}
           </time>
         </div>
