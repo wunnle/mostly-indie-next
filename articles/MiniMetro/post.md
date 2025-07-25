@@ -1,5 +1,5 @@
 ---
-path: "/minimetro"
+path: "/MiniMetro"
 date: "2016-04-10"
 title: "*Mini Metro* + Disasterpeace"
 featuredImg: ./mini-metro.jpg

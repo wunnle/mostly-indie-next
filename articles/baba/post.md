@@ -1,5 +1,5 @@
 ---
-path: "/baba-is-sign"
+path: "/baba"
 date: "2020-01-12"
 title: "Baba is Sign"
 featuredImg: "./Baba.jpg"

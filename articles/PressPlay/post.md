@@ -1,6 +1,7 @@
 ---
-path: "/press-play"
-title: "Poster presented at the workshop "Playing the Field V: Play in Progress" in Dortmund, April 10, 2025"
+path: "/PressPlay"
+title: "Poster presented at the workshop Playing the Field V: Play in Progress in Dortmund, April 10, 2025"
+date: "2015-10-15"
 sharedOnTwitter: false
 unlisted: true
 ---
