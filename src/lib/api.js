@@ -42,6 +42,8 @@ export function getAllPosts() {
     .sort((a, b) => {
       return new Date(b.meta.date) - new Date(a.meta.date)
     })
+    .filter(post => !post.meta.unlisted)
+
   return posts
 }
 
@@ -52,6 +54,5 @@ export function getWebmentionsForSlug(slug) {
     .then(res => res.json())
     .then(data => {
       return data
-      console.log(data)
     })
 }
