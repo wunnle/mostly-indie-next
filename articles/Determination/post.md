@@ -1,5 +1,5 @@
 ---
-path: "/determination"
+path: "/Determination"
 date: "2016-09-21"
 title: "Determination"
 featuredImg: ./determination.jpg

@@ -1,5 +1,5 @@
 ---
-path: "/alba"
+path: "/Alba"
 date: "2020-12-15"
 title: "Alba and Wholesome Games"
 featuredImg: "./Alba.jpg"

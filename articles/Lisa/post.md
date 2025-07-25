@@ -1,5 +1,5 @@
 ---
-path: "/lisa"
+path: "/Lisa"
 date: "2015-10-15"
 title: LISA Painful & Joyful
 featuredImg: ./lisa.jpg

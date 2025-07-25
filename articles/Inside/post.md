@@ -1,5 +1,5 @@
 ---
-path: "/inside-review"
+path: "/Inside"
 date: "2017-01-01"
 title: "*INSIDE*"
 featuredImg: "./inside.jpg"

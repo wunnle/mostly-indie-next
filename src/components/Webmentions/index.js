@@ -17,7 +17,6 @@ const Webmentions = ({ slug }) => {
     )
       .then(res => res.json())
       .then(data => {
-        console.log(data)
         setMentions(data.links)
       })
   }, [slug])

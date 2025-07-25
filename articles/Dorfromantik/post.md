@@ -1,5 +1,5 @@
 ---
-path: "/dorfromantik"
+path: "/Dorfromantik"
 date: "2021-02-13"
 title: "Dorfromantik: A game I needed"
 featuredImg: "./Dorfromantik_main.jpg"
