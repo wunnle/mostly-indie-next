@@ -1,12 +1,16 @@
 ---
 path: "/PressPlay"
-title: "Poster presented at the workshop Playing the Field V: Play in Progress in Dortmund, April 10, 2025"
-date: "2015-10-15"
 sharedOnTwitter: false
 unlisted: true
 ---
+Poster presented at the workshop "Playing the Field V: Play in Progress" in Dortmund, April 10, 2025.  \
+ \
+Printed version looked like this:
 ![Photo of the printed newspaper](./print-newspaper.jpg)
-Printed version of the newspaper.
+
+  \
+Full poster:
+
 ![Newspaper page 1](./Newspaper-1.png)
 ![Newspaper page 2](./Newspaper-2.png)
 ![Newspaper page 3](./Newspaper-3.png)
