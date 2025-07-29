@@ -2,8 +2,8 @@
 path: "/about"
 sharedOnTwitter: false
 unlisted: true
-date: (updated in July 2025)
-title: About
+date: 
+title: Who and what?
 ---
 Hi there, my name is Kübra. I am a game studies scholar based in Freiburg, Germany. \
  \
