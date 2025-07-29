@@ -2,13 +2,13 @@
 path: "/about"
 sharedOnTwitter: false
 unlisted: true
-date: 
+date: (updated in July 2025)
 title: About
 ---
-Hi there, I'm Kübra, a game studies scholar based in Freiburg, Germany. \
+Hi there, my name is Kübra. I am a game studies scholar based in Freiburg, Germany. \
  \
 On this blog, I share my (non-academic) opinions (mainly) on games I've recently played and enjoyed. I always like to discover new indie gems, especially puzzle games, and talk more about my current favorites, 
-so feel free to get in touch with me--currently on [Bluesky](https://bsky.app/profile/mostlyindie.com).
+so feel free to get in touch with me, for example, on [Bluesky](https://bsky.app/profile/mostlyindie.com).
 
 If you'd like to check out my academic work, see my [ORCID profile](https://orcid.org/0009-0001-7172-3439) or click on the links below to some of my recent open-access works:
 
