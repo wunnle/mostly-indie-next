@@ -11,7 +11,7 @@ const Tagline = () => (
     <div className={styles.holder}>
       <Image className={styles.logo} src={logo} alt="Mostly Indie" />
       <div className={styles.tagline}>
-        Game reviews. Mostly{' '}
+        Game reviews, mostly{' '}
         <span className={[silkscreen.className, styles.indie].join(' ')}>indies</span>
       </div>
       <Link
