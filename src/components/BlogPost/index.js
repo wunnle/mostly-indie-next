@@ -21,11 +21,13 @@ const BlogPost = ({ post }) => {
           <a className="u-url" href={`https://mostlyindie.com/${post.slug}`}>
             Link to the post
           </a>
-          <time className="dt-published" dateTime={date}>
-            {date}
-          </time>
+          {date && (
+            <time className="dt-published" dateTime={date}>
+              {date}
+            </time>
+          )}
         </div>
-        <p className={styles.date}>{timeSince(date)}</p>
+        {date && <p className={styles.date}>{timeSince(date)}</p>}
         <div className={[styles.content, 'e-content', 'p-name'].join(' ')}>
           {' '}
           <Markdown
